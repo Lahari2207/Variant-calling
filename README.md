@@ -1,5 +1,6 @@
-# Variant-calling
-A small WES variant-calling workflow using Nextflow, GATK, BWA-MEM2, samtools, fastp, FastQC, and ANNOVAR.
+# Germline Variant Calling Pipeline with Nextflow
+
+A small-scale germline variant calling workflow implemented using Nextflow, GATK, BWA-MEM2, samtools, fastp, FastQC, and ANNOVAR.
 
 The pipeline takes paired-end FASTQ files through quality control, adapter and quality trimming, alignment to the reference genome, BAM processing, variant calling, variant filtering, and functional annotation with ANNOVAR.
 
