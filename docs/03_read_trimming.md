@@ -4,7 +4,6 @@
 The paired-end reads are processed using fastp.
 
 Input:
-```text
 NA12873_R1.fastq.gz
 NA12873_R2.fastq.gz
 
