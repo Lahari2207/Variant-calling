@@ -5,7 +5,6 @@ The aligned BAM file is processed using GATK and samtools.
 
 The workflow performs:
 
-```text
 Sorted BAM
     |
     v
@@ -21,7 +20,9 @@ MarkDuplicates
 Deduplicated BAM
 
 CleanSam is used to clean the SAM/BAM file before downstream processing.
+
 FixMateInformation ensures that paired reads contain consistent mate information.
+
 MarkDuplicates identifies duplicate sequencing reads, commonly produced during PCR amplification.
 
 The duplicates are marked rather than simply deleted.
