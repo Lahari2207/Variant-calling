@@ -1,8 +1,6 @@
 # Variant-calling
 A small WES variant-calling workflow using Nextflow, GATK, BWA-MEM2, samtools, fastp, FastQC, and ANNOVAR.
 
-A small whole-exome sequencing (WES) variant-calling workflow implemented using **Nextflow**.
-
 The pipeline takes paired-end FASTQ files through quality control, adapter and quality trimming, alignment to the reference genome, BAM processing, variant calling, variant filtering, and functional annotation with ANNOVAR.
 
 ## Pipeline overview
