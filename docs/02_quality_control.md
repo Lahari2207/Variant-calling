@@ -5,7 +5,6 @@ FastQC is used to assess the quality of the sequencing reads.
 
 FastQC is run twice:
 
-```text
 Raw FASTQ
    |
    v
