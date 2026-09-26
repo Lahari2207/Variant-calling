@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+  - bioconda
+
+dependencies:
+  - openjdk=17
+  - fastqc
+  - fastp
+  - samtools
+  - bwa-mem2
+  - gatk4
